@@ -19,13 +19,13 @@ function setup() {
 	//Create the Bodies Here.
 roof = new Roof(400,200,400,45)
 ball1 = new Ball (200,600,20)
-queue1 = new Queue (ball1.body,{x:200, y:200})
+queue1 = new Queue (ball1.body,{x:200, y:300})
 ball2 = new Ball(330,598,20)
-queue2 = new Queue(ball2.body,{x:330,y:200})
+queue2 = new Queue(ball2.body,{x:330,y:300})
 ball3 = new Ball(450,609,20)
-queue3 = new Queue(ball3.body,{x:450,y:200}) 
+queue3 = new Queue(ball3.body,{x:450,y:300}) 
 ball4 = new Ball(560,609,20)
-queue4 = new Queue(ball4.body,{x:560,y:200})
+queue4 = new Queue(ball4.body,{x:560,y:300})
 	Engine.run(engine);
   
 }
